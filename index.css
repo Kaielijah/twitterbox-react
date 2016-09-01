@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+  width:100%;
+  font-family: arial;
+}
+#tweets{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  font-family: arial;
+  font-size: 28px;
+  font-weight: bold;
+ }
+
+
+ textarea {
+  width: 60%;
+  font-family: arial;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  color: #222;
+  border: 1px solid steelblue;
+ }
+
+ textarea:focus {
+  outline: 0;
+ }
