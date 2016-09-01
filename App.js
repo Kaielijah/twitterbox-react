@@ -34,14 +34,14 @@ this.state={
       })
     }else{
       alert('TOOO LONGGS')
-    
+
     }
   }
 
 render(){
   return(
     <div>
-    <textarea onChange={this._updateEvent.bind(this)}></textarea>
+    <textarea onChange={this._updateEvent.bind(this)} maxLength={CHAR_LIMIT}></textarea>
     <p>Characters left: {this.state.chars_left}</p>
     <p>Characters typed: {this.state.chars_typed}</p>
     </div>
